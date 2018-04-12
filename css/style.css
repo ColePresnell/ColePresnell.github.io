@@ -147,3 +147,21 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+#mainPortfolio {
+    margin: 0;
+    padding: 0;
+}
+
+#hangMan {
+    float:left;
+    height:300px;
+    width:300px;
+    margin-right: 100px;
+}
+
+#rPG {
+    float:left;
+    height:300px;
+    width:300px;
+}
