@@ -79,7 +79,7 @@ li a:hover:not(.active) {
     width: 900px;
     margin: 25px 280px 25px 280px;
     padding: 30px;
-    font: color #777777;
+    color: #777777;
 }    
 
 p {
@@ -133,7 +133,7 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-input[type=mssgText], select {
+input[type=text2], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -205,7 +205,6 @@ input[type=submit]:hover {
 .rpg {
     float:left;
     
-    
 }
 
 .trivia {
@@ -233,5 +232,5 @@ a {
     width: 900px;
     padding: 30px;
     margin: 25px 280px 25px 280px;
-    font: color #777777;
+    color: #777777;
 }
