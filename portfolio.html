@@ -4,74 +4,67 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="images/dust_scratches/dust_scratches.png" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Cole Presnell's Website</title>
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <ul>
-                <li>
-                    <a href="index.html">About</a>
-                </li>
-                <li>
-                    <a class="active" href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Cole Presnell</a>
 
-            <h1>
-                <strong>Cole Presnell</strong>
-            </h1>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
 
         </div>
     </header>
 
-    <div class="portfolioContainer">
-
-        <section id="mainPortfolio">
-            <h2>Portfolio</h2>
-
-            <div class="hangman">
-                <img class="portfolioPics" src="images/hangMan.jpg" alt="Hangman" />
-                <P class="boxName"><a href="#" target="blank">Hangman</a></P>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+            <div class="work">
+                <img src="images/hangMan.jpg" class="auth-image" alt="Hangman">
+                <h3>Hangman</h3>
             </div>
-
-            <div class="rpg">
-                <img class="portfolioPics" src="images/stats.png" alt="RPG" />
-                <p class="boxName"><a href="#" target="blank">RPG Game</a></p>
-
+            <div class="work">
+                <img src="images/stats.png" class="auth-image" alt="RPG Game">
+                <h3>RPG Game</h3>
             </div>
-            <div class="trivia">
-                <img class="portfolioPics" src="images/trivia.jpg" alt="Trivia Game" />
-                <p class="boxName"><a href="#" target="blank">Trivia Game</a></p>
-
+            <div class="work">
+                <img src="images/trivia.jpg" class="auth-image" alt="Trivia Game">
+                <h3>Trivia Game</h3>
             </div>
-            <div class="widget">
-                <img class="portfolioPics" src="images/widget.png" alt="Rutgers Info Widget" />
-                <p class="boxName"><a href="#" target="blank">Rutgers Info Widget</a></p>
+            <div class="work">
+                <img src="images/widget.png" class="auth-image" alt="Rutgers Info Widget">
+                <h3>Rutgers</h3>
             </div>
-            <div class="rps">
-                <img class="portfolioPics" src="images/rps.jpg" alt="Rock Paper Scissors" />
-                <p class="boxName"><a href="#" target="blank">Rock Paper Scissors</a></p>
-
+            <div class="work">
+                <img src="images/rps.jpg" class="auth-image" alt="Rock Paper Scissors">
+                <h3>Rock Paper Scissors</h3>
             </div>
-
 
         </section>
 
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+            </div>
+            <img src="images/linLogo.png" class="social" alt="LinkedIn">
+            <img src="images/fbLogo.png" class="social" alt="FaceBook">
+            <img src="images/githubLogo.png" class="social" alt="GitHub">
+
+        </section>
     </div>
-
     <footer>
-        Copyright 2018;
+        <div class="container">
+            &copy; Copyright 2018 Cole Presnell
+        </div>
     </footer>
-
 </body>
 
 </html>
